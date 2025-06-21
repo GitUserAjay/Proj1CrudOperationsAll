@@ -96,8 +96,8 @@ public class ProjEmployeeCrudOperationsApplication {
 	   String result1=controller.updateSalById(3450000,103);
 	   System.out.println(result1);
 	   
-	   Employee emp=new Employee("ram","raghuvanshi","ramRRR@gmail.com",7777777773l,4300000.f,"developer");
-	   String result2=controller.updateDetails(emp, 2);
+	   Employee emp2=new Employee("ram","raghuvanshi","ramRRR@gmail.com",7777777773l,4300000.f,"developer");
+	   String result2=controller.updateDetails(emp2, 2);
 	   System.out.println(result2);
 	   
 	   
